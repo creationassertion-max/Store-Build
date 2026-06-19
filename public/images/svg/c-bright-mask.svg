@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#FFFBE8"/><stop offset="100%" stop-color="#F5EAC8"/></radialGradient>
+    <linearGradient id="tube" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFFDF0"/><stop offset="100%" stop-color="#F8EFB8"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#806820" flood-opacity="0.14"/></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g stroke="#F5C030" stroke-width="0.8" fill="none" opacity="0.2">
+    <line x1="480" y1="100" x2="480" y2="40"/><line x1="480" y1="100" x2="540" y2="60"/>
+    <line x1="480" y1="100" x2="550" y2="100"/><line x1="480" y1="100" x2="530" y2="140"/>
+    <line x1="480" y1="100" x2="480" y2="160"/><line x1="480" y1="100" x2="430" y2="140"/>
+    <line x1="480" y1="100" x2="410" y2="100"/><line x1="480" y1="100" x2="430" y2="60"/>
+  </g>
+  <circle cx="480" cy="100" r="25" fill="#F5C030" opacity="0.18"/>
+  <g transform="translate(192, 55)" filter="url(#shadow)">
+    <path d="M70 0 L146 0 L146 45 L130 58 L70 58 Z" fill="#C89020"/>
+    <path d="M80 5 L140 5 L140 42 L126 54 L80 54 Z" fill="#D8A030"/>
+    <rect x="118" y="46" width="20" height="22" rx="3" fill="#A87010"/>
+    <rect x="60" y="58" width="96" height="28" rx="6" fill="#C89020"/>
+    <rect x="66" y="62" width="84" height="20" rx="4" fill="#D4A838"/>
+    <rect x="54" y="86" width="108" height="370" rx="16" fill="url(#tube)"/>
+    <rect x="59" y="91" width="9" height="358" rx="4.5" fill="#FFFFFF" opacity="0.5"/>
+    <rect x="62" y="168" width="92" height="155" rx="4" fill="#FFFFFF" opacity="0.84"/>
+    <rect x="62" y="168" width="92" height="6" rx="3" fill="#F5C030" opacity="0.75"/>
+    <rect x="70" y="186" width="76" height="4" rx="2" fill="#3A2A00" opacity="0.42"/>
+    <rect x="74" y="197" width="68" height="2" rx="1" fill="#3A2A00" opacity="0.26"/>
+    <rect x="70" y="215" width="76" height="12" rx="2.5" fill="#F5C030" opacity="0.5"/>
+    <rect x="70" y="234" width="76" height="2" rx="1" fill="#3A2A00" opacity="0.16"/>
+    <rect x="70" y="243" width="58" height="2" rx="1" fill="#3A2A00" opacity="0.13"/>
+    <rect x="70" y="288" width="40" height="2" rx="1" fill="#F5C030" opacity="0.45"/>
+    <text x="128" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#D4A030" opacity="0.5">Vit C</text>
+    <rect x="54" y="448" width="108" height="8" rx="4" fill="#C89020" opacity="0.4"/>
+    <path d="M60 456 L152 456" stroke="#D4A030" stroke-width="1.2" opacity="0.5"/>
+    <path d="M66 462 L146 462" stroke="#C89020" stroke-width="1" opacity="0.4"/>
+    <rect x="54" y="466" width="108" height="14" rx="7" fill="#C89020" opacity="0.3"/>
+  </g>
+</svg>

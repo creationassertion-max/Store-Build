@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#F8F8F5"/><stop offset="100%" stop-color="#ECECE5"/></radialGradient>
+    <linearGradient id="jar" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#F0EFEA"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#606060" flood-opacity="0.16"/></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g fill="#D0CFC8" opacity="0.3">
+    <circle cx="100" cy="200" r="4"/><circle cx="115" cy="210" r="3"/><circle cx="105" cy="225" r="4"/>
+    <circle cx="120" cy="195" r="2.5"/><circle cx="90" cy="215" r="3"/>
+    <circle cx="470" cy="380" r="4"/><circle cx="485" cy="390" r="3"/><circle cx="475" cy="405" r="4"/>
+    <circle cx="490" cy="375" r="2.5"/>
+  </g>
+  <g transform="translate(140, 165)" filter="url(#shadow)">
+    <ellipse cx="160" cy="298" rx="148" ry="22" fill="#A0A0A0" opacity="0.16"/>
+    <rect x="18" y="100" width="284" height="198" rx="12" fill="url(#jar)"/>
+    <ellipse cx="160" cy="100" rx="142" ry="22" fill="#F5F5F2"/>
+    <ellipse cx="160" cy="88" rx="138" ry="18" fill="#FAFAF8"/>
+    <ellipse cx="160" cy="78" rx="146" ry="26" fill="#E0E0DC"/>
+    <ellipse cx="160" cy="66" rx="146" ry="26" fill="#E8E8E4"/>
+    <ellipse cx="160" cy="54" rx="144" ry="24" fill="#EFEFEC"/>
+    <ellipse cx="160" cy="42" rx="142" ry="22" fill="#F5F5F2"/>
+    <ellipse cx="160" cy="32" rx="140" ry="20" fill="#FAFAF8"/>
+    <ellipse cx="160" cy="22" rx="138" ry="18" fill="#FDFDFC"/>
+    <ellipse cx="160" cy="20" rx="60" ry="10" fill="#E0E0DC" opacity="0.5"/>
+    <text x="160" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#909090" opacity="0.6" font-style="italic">L</text>
+    <rect x="38" y="118" width="244" height="160" rx="5" fill="#FFFFFF" opacity="0.7"/>
+    <rect x="56" y="135" width="208" height="4" rx="2" fill="#202020" opacity="0.4"/>
+    <rect x="70" y="147" width="180" height="2" rx="1" fill="#202020" opacity="0.24"/>
+    <rect x="56" y="165" width="208" height="14" rx="3" fill="#C0BFBA" opacity="0.5"/>
+    <rect x="56" y="186" width="208" height="2" rx="1" fill="#202020" opacity="0.15"/>
+    <rect x="56" y="195" width="162" height="2" rx="1" fill="#202020" opacity="0.12"/>
+    <rect x="56" y="204" width="190" height="2" rx="1" fill="#202020" opacity="0.12"/>
+    <rect x="56" y="240" width="80" height="2" rx="1" fill="#C0BFBA" opacity="0.38"/>
+  </g>
+</svg>

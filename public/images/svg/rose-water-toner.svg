@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#FFF5F8"/>
+      <stop offset="100%" stop-color="#F5D8E5"/>
+    </radialGradient>
+    <linearGradient id="bottle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.92"/>
+      <stop offset="50%" stop-color="#FFF0F5" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F5D0E0"/>
+    </linearGradient>
+    <linearGradient id="rosewater" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB8D0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#F08098" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#A04060" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g opacity="0.35">
+    <ellipse cx="100" cy="180" rx="40" ry="20" fill="#F09090" transform="rotate(-25 100 180)"/>
+    <ellipse cx="130" cy="160" rx="35" ry="17" fill="#F8A8A8" transform="rotate(18 130 160)"/>
+    <ellipse cx="80" cy="200" rx="28" ry="14" fill="#E88090" transform="rotate(-50 80 200)"/>
+    <ellipse cx="480" cy="420" rx="38" ry="19" fill="#F09090" transform="rotate(35 480 420)"/>
+    <ellipse cx="510" cy="440" rx="30" ry="15" fill="#F8A8A8" transform="rotate(-15 510 440)"/>
+    <ellipse cx="450" cy="410" rx="25" ry="12" fill="#E88090" transform="rotate(55 450 410)"/>
+  </g>
+  <g transform="translate(205, 45)" filter="url(#shadow)">
+    <rect x="72" y="0" width="46" height="18" rx="5" fill="#D06080"/>
+    <rect x="88" y="18" width="14" height="38" rx="4" fill="#E07090"/>
+    <rect x="58" y="56" width="74" height="30" rx="7" fill="#D06080"/>
+    <rect x="64" y="60" width="62" height="22" rx="5" fill="#E07090"/>
+    <rect x="74" y="86" width="42" height="18" rx="4" fill="#D4A0B0"/>
+    <path d="M60 104 Q56 116 48 132 L48 450 Q48 472 82 475 L108 475 Q142 475 142 450 L142 132 Q134 116 130 104 Z" fill="url(#bottle)"/>
+    <path d="M54 300 L54 445 Q54 465 82 467 L108 467 Q136 467 136 445 L136 300 Z" fill="url(#rosewater)"/>
+    <path d="M56 136 L56 440" stroke="#FFFFFF" stroke-width="2.5" fill="none" opacity="0.5"/>
+    <rect x="56" y="175" width="78" height="120" rx="3" fill="#FFFFFF" opacity="0.82"/>
+    <rect x="64" y="188" width="62" height="3" rx="1.5" fill="#7A2040" opacity="0.5"/>
+    <rect x="68" y="198" width="54" height="2" rx="1" fill="#7A2040" opacity="0.3"/>
+    <circle cx="95" cy="220" r="12" fill="none" stroke="#D06080" stroke-width="1"/>
+    <path d="M87 220 Q95 210 103 220 Q95 230 87 220Z" fill="#F09090" opacity="0.5"/>
+    <path d="M88 213 Q95 218 102 213" stroke="#D06080" stroke-width="0.8" fill="none" opacity="0.6"/>
+    <rect x="64" y="240" width="62" height="2" rx="1" fill="#7A2040" opacity="0.18"/>
+    <rect x="64" y="249" width="48" height="2" rx="1" fill="#7A2040" opacity="0.14"/>
+    <rect x="64" y="275" width="32" height="2" rx="1" fill="#D06080" opacity="0.4"/>
+    <ellipse cx="95" cy="475" rx="47" ry="8" fill="#C05070" opacity="0.3"/>
+  </g>
+</svg>

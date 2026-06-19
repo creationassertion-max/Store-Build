@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#FFF5F5"/><stop offset="100%" stop-color="#FAE0E0"/></radialGradient>
+    <linearGradient id="tube" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAFAFA"/><stop offset="100%" stop-color="#F5E5E8"/></linearGradient>
+    <linearGradient id="product" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFB0B8"/><stop offset="100%" stop-color="#E87080"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#A04050" flood-opacity="0.14"/></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g opacity="0.18" fill="#E87080">
+    <path d="M200 350 Q260 320 300 330 Q340 320 400 350 Q380 390 300 395 Q220 390 200 350Z"/>
+    <path d="M230 342 Q260 330 300 330 Q340 330 370 342 Q340 325 300 325 Q260 325 230 342Z"/>
+  </g>
+  <g transform="translate(210, 100)" filter="url(#shadow)">
+    <rect x="65" y="0" width="50" height="38" rx="7" fill="#D4887A"/>
+    <rect x="70" y="5" width="40" height="28" rx="5" fill="#E09088"/>
+    <rect x="65" y="38" width="50" height="8" rx="2" fill="#C07868"/>
+    <rect x="68" y="46" width="44" height="300" rx="7" fill="url(#tube)"/>
+    <rect x="72" y="51" width="6" height="288" rx="3" fill="#FFFFFF" opacity="0.55"/>
+    <rect x="68" y="280" width="44" height="62" rx="7" fill="url(#product)" opacity="0.5"/>
+    <rect x="73" y="100" width="34" height="160" rx="3" fill="#FFFFFF" opacity="0.8"/>
+    <rect x="77" y="112" width="26" height="3" rx="1.5" fill="#7A2030" opacity="0.45"/>
+    <rect x="79" y="122" width="22" height="2" rx="1" fill="#7A2030" opacity="0.28"/>
+    <rect x="77" y="138" width="26" height="10" rx="2" fill="#E87080" opacity="0.55"/>
+    <rect x="77" y="155" width="26" height="2" rx="1" fill="#7A2030" opacity="0.16"/>
+    <rect x="77" y="163" width="20" height="2" rx="1" fill="#7A2030" opacity="0.13"/>
+    <rect x="77" y="224" width="16" height="2" rx="1" fill="#E87080" opacity="0.4"/>
+    <rect x="68" y="338" width="44" height="14" rx="7" fill="#D4887A" opacity="0.5"/>
+    <line x1="72" y1="345" x2="108" y2="345" stroke="#E09088" stroke-width="0.8" opacity="0.4"/>
+  </g>
+  <ellipse cx="155" cy="280" rx="25" ry="12" fill="#F0A0A8" opacity="0.3" transform="rotate(-30 155 280)"/>
+  <ellipse cx="435" cy="200" rx="20" ry="10" fill="#F8B8C0" opacity="0.25" transform="rotate(25 435 200)"/>
+</svg>

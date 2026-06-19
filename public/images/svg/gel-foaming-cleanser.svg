@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#F0FFF5"/>
+      <stop offset="100%" stop-color="#D8F5E8"/>
+    </radialGradient>
+    <linearGradient id="bottle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0FFF5"/>
+      <stop offset="60%" stop-color="#D8F5E8"/>
+      <stop offset="100%" stop-color="#A8DFC0"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#208060" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g fill="none" stroke="#60B890" stroke-width="0.8" opacity="0.3">
+    <circle cx="450" cy="150" r="30"/>
+    <circle cx="475" cy="135" r="22"/>
+    <circle cx="465" cy="175" r="18"/>
+    <circle cx="430" cy="165" r="16"/>
+    <circle cx="440" cy="140" r="14"/>
+    <circle cx="120" cy="420" r="25"/>
+    <circle cx="145" cy="410" r="18"/>
+    <circle cx="130" cy="445" r="15"/>
+  </g>
+  <g transform="translate(185, 50)" filter="url(#shadow)">
+    <rect x="85" y="0" width="60" height="16" rx="5" fill="#3A9060"/>
+    <rect x="103" y="16" width="24" height="52" rx="5" fill="#50A878"/>
+    <ellipse cx="115" cy="70" rx="46" ry="18" fill="#3A9060"/>
+    <rect x="70" y="56" width="90" height="28" rx="8" fill="#3A9060"/>
+    <rect x="76" y="60" width="78" height="20" rx="6" fill="#50A878"/>
+    <path d="M48 84 Q40 100 30 120 L30 440 Q30 465 75 468 L155 468 Q200 468 200 440 L200 120 Q190 100 182 84 Z" fill="url(#bottle)"/>
+    <path d="M38 125 Q38 200 42 300 Q42 380 38 430" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.5"/>
+    <rect x="42" y="168" width="146" height="155" rx="4" fill="#FFFFFF" opacity="0.75"/>
+    <rect x="55" y="182" width="120" height="4" rx="2" fill="#1A5A3A" opacity="0.42"/>
+    <rect x="65" y="194" width="100" height="2" rx="1" fill="#1A5A3A" opacity="0.26"/>
+    <rect x="55" y="212" width="120" height="14" rx="3" fill="#60B890" opacity="0.5"/>
+    <rect x="55" y="233" width="120" height="2" rx="1" fill="#1A5A3A" opacity="0.16"/>
+    <rect x="55" y="242" width="95" height="2" rx="1" fill="#1A5A3A" opacity="0.13"/>
+    <rect x="55" y="251" width="110" height="2" rx="1" fill="#1A5A3A" opacity="0.13"/>
+    <rect x="55" y="295" width="55" height="2" rx="1" fill="#60B890" opacity="0.42"/>
+    <rect x="145" y="184" width="36" height="16" rx="4" fill="#3A9060"/>
+    <text x="163" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF">pH 5.5</text>
+    <ellipse cx="115" cy="468" rx="85" ry="10" fill="#3A9060" opacity="0.3"/>
+  </g>
+</svg>
