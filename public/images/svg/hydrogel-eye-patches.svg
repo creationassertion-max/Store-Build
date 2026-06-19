@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#F0F5FF"/><stop offset="100%" stop-color="#D8E8F8"/></radialGradient>
+    <linearGradient id="patch" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#E8F5FF" stop-opacity="0.9"/><stop offset="100%" stop-color="#B8DAEE" stop-opacity="0.95"/></linearGradient>
+    <linearGradient id="box" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAFAF7"/><stop offset="100%" stop-color="#EDE3D5"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#305080" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g stroke="#A8C8E8" stroke-width="0.6" fill="none" opacity="0.25">
+    <polygon points="120,150 140,130 160,150 140,170"/>
+    <polygon points="450,400 470,380 490,400 470,420"/>
+  </g>
+  <g transform="translate(90, 160)" filter="url(#shadow)">
+    <path d="M20 100 Q10 60 80 40 Q150 20 170 60 Q190 100 130 120 Q70 140 20 100Z" fill="url(#patch)" opacity="0.92"/>
+    <path d="M30 95 Q22 64 84 47 Q146 30 164 66 Q180 96 124 114" stroke="#A8C8E8" stroke-width="1.2" fill="none" opacity="0.6"/>
+    <path d="M35 90 Q28 66 85 50" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M240 100 Q230 60 300 40 Q370 20 390 60 Q410 100 350 120 Q290 140 240 100Z" fill="url(#patch)" opacity="0.92"/>
+    <path d="M250 95 Q242 64 304 47 Q366 30 384 66 Q400 96 344 114" stroke="#A8C8E8" stroke-width="1.2" fill="none" opacity="0.6"/>
+    <path d="M255 90 Q248 66 305 50" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.5"/>
+  </g>
+  <g transform="translate(155, 330)" filter="url(#shadow)">
+    <rect x="0" y="0" width="290" height="180" rx="8" fill="url(#box)"/>
+    <rect x="0" y="0" width="290" height="35" rx="8" fill="#C4A882" opacity="0.6"/>
+    <rect x="0" y="28" width="290" height="7" fill="#EDE3D5"/>
+    <rect x="20" y="50" width="250" height="120" rx="4" fill="#FFFFFF" opacity="0.7"/>
+    <rect x="30" y="65" width="230" height="4" rx="2" fill="#1A1A1A" opacity="0.42"/>
+    <rect x="45" y="78" width="200" height="2" rx="1" fill="#1A1A1A" opacity="0.25"/>
+    <rect x="30" y="96" width="230" height="12" rx="3" fill="#7EC8E8" opacity="0.5"/>
+    <rect x="30" y="115" width="230" height="2" rx="1" fill="#1A1A1A" opacity="0.16"/>
+    <rect x="30" y="124" width="186" height="2" rx="1" fill="#1A1A1A" opacity="0.13"/>
+    <rect x="30" y="148" width="80" height="2" rx="1" fill="#7EC8E8" opacity="0.4"/>
+    <rect x="218" y="60" width="46" height="24" rx="6" fill="#7EC8E8" opacity="0.7"/>
+    <text x="241" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">5 pairs</text>
+  </g>
+</svg>

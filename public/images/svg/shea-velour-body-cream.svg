@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#FFF8F0"/><stop offset="100%" stop-color="#F5E8D0"/></radialGradient>
+    <linearGradient id="pump" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#F0E8D8"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#806040" flood-opacity="0.16"/></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g opacity="0.25" stroke="#8A6A40" stroke-width="1.2" fill="none">
+    <path d="M100 450 L130 380 L160 350"/>
+    <path d="M130 380 L110 360"/>
+    <path d="M145 365 L165 345"/>
+  </g>
+  <ellipse cx="162" cy="347" rx="18" ry="24" fill="#C4903A" opacity="0.3" transform="rotate(-15 162 347)"/>
+  <ellipse cx="468" cy="200" rx="15" ry="20" fill="#C4903A" opacity="0.25" transform="rotate(20 468 200)"/>
+  <g transform="translate(148, 65)" filter="url(#shadow)">
+    <rect x="100" y="0" width="104" height="18" rx="6" fill="#C4A882"/>
+    <rect x="141" y="18" width="22" height="55" rx="5" fill="#D4B892"/>
+    <rect x="85" y="73" width="134" height="36" rx="8" fill="#C4A882"/>
+    <rect x="92" y="78" width="120" height="26" rx="6" fill="#D4B892"/>
+    <path d="M42 109 Q35 122 25 142 L25 450 Q25 475 72 478 L232 478 Q279 478 279 450 L279 142 Q269 122 262 109 Z" fill="url(#pump)"/>
+    <line x1="32" y1="148" x2="32" y2="440" stroke="#E0D0B8" stroke-width="2" opacity="0.4"/>
+    <line x1="272" y1="148" x2="272" y2="440" stroke="#D0C0A8" stroke-width="2" opacity="0.35"/>
+    <path d="M34 148 L34 438" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.4"/>
+    <rect x="40" y="175" width="224" height="185" rx="5" fill="#FFFFFF" opacity="0.78"/>
+    <rect x="40" y="175" width="224" height="6" rx="3" fill="#C4A882" opacity="0.6"/>
+    <rect x="58" y="194" width="188" height="4" rx="2" fill="#3A2010" opacity="0.42"/>
+    <rect x="72" y="206" width="160" height="2" rx="1" fill="#3A2010" opacity="0.26"/>
+    <rect x="58" y="226" width="188" height="14" rx="3" fill="#D4B892" opacity="0.5"/>
+    <rect x="58" y="247" width="188" height="2" rx="1" fill="#3A2010" opacity="0.16"/>
+    <rect x="58" y="256" width="148" height="2" rx="1" fill="#3A2010" opacity="0.13"/>
+    <rect x="58" y="265" width="172" height="2" rx="1" fill="#3A2010" opacity="0.13"/>
+    <rect x="58" y="330" width="85" height="2" rx="1" fill="#C4A882" opacity="0.4"/>
+    <ellipse cx="152" cy="478" rx="127" ry="12" fill="#C4A882" opacity="0.3"/>
+  </g>
+</svg>

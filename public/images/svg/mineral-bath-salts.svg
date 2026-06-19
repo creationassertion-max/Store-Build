@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#F5F8FF"/><stop offset="100%" stop-color="#E0E8F8"/></radialGradient>
+    <linearGradient id="jar" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FAFAF7"/><stop offset="100%" stop-color="#EDE3D5"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#304060" flood-opacity="0.16"/></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g opacity="0.3">
+    <polygon points="100,220 115,202 130,210 128,230 110,238" fill="#B0C0D8"/>
+    <polygon points="460,180 475,162 490,170 488,190 470,198" fill="#9BB0CE"/>
+    <polygon points="120,420 138,400 155,410 152,432 132,440" fill="#A8B8D0"/>
+    <polygon points="455,380 470,362 485,370 483,392 463,400" fill="#B0C0D8"/>
+  </g>
+  <g opacity="0.35" fill="#F5B0A0">
+    <polygon points="85,350 92,340 100,350 92,360"/>
+    <polygon points="475,280 482,270 490,280 482,290"/>
+    <polygon points="110,150 117,140 125,150 117,160"/>
+  </g>
+  <g transform="translate(120, 145)" filter="url(#shadow)">
+    <ellipse cx="180" cy="330" rx="170" ry="22" fill="#304060" opacity="0.14"/>
+    <rect x="22" y="105" width="316" height="225" rx="14" fill="url(#jar)"/>
+    <rect x="35" y="200" width="290" height="122" rx="10" fill="#E8E0D8" opacity="0.4"/>
+    <g fill="#D0C8C0" opacity="0.3">
+      <polygon points="60,240 68,228 76,238 68,250"/>
+      <polygon points="100,250 108,238 116,248 108,260"/>
+      <polygon points="155,235 163,223 171,233 163,245"/>
+      <polygon points="215,245 223,233 231,243 223,255"/>
+      <polygon points="270,238 278,226 286,236 278,248"/>
+      <polygon points="80,270 88,258 96,268 88,280"/>
+      <polygon points="190,265 198,253 206,263 198,275"/>
+    </g>
+    <g fill="#F5B0A0" opacity="0.25">
+      <circle cx="130" cy="275" r="5"/>
+      <circle cx="200" cy="260" r="4"/>
+      <circle cx="248" cy="280" r="5"/>
+    </g>
+    <ellipse cx="180" cy="105" rx="158" ry="26" fill="#D8E0F0"/>
+    <ellipse cx="180" cy="92" rx="154" ry="23" fill="#E0E8F8"/>
+    <ellipse cx="180" cy="80" rx="162" ry="30" fill="#C8D8E8"/>
+    <ellipse cx="180" cy="68" rx="162" ry="30" fill="#D0DEF0"/>
+    <ellipse cx="180" cy="56" rx="160" ry="28" fill="#D8E6F8"/>
+    <ellipse cx="180" cy="44" rx="158" ry="26" fill="#E0EEFF"/>
+    <ellipse cx="180" cy="34" rx="156" ry="24" fill="#E8F4FF"/>
+    <ellipse cx="180" cy="26" rx="154" ry="22" fill="#F0F8FF"/>
+    <ellipse cx="180" cy="24" rx="70" ry="12" fill="none" stroke="#8090B0" stroke-width="1"/>
+    <text x="180" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#6080A0" opacity="0.7">Dead Sea</text>
+    <rect x="42" y="120" width="276" height="178" rx="5" fill="#FFFFFF" opacity="0.7"/>
+    <rect x="62" y="138" width="236" height="4" rx="2" fill="#1A2A4A" opacity="0.42"/>
+    <rect x="78" y="150" width="204" height="2" rx="1" fill="#1A2A4A" opacity="0.26"/>
+    <rect x="62" y="170" width="236" height="14" rx="3" fill="#8090B0" opacity="0.45"/>
+    <rect x="62" y="191" width="236" height="2" rx="1" fill="#1A2A4A" opacity="0.16"/>
+    <rect x="62" y="200" width="185" height="2" rx="1" fill="#1A2A4A" opacity="0.13"/>
+    <rect x="62" y="209" width="215" height="2" rx="1" fill="#1A2A4A" opacity="0.13"/>
+    <rect x="62" y="270" width="90" height="2" rx="1" fill="#8090B0" opacity="0.38"/>
+    <rect x="22" y="322" width="316" height="8" rx="4" fill="#8090B0" opacity="0.3"/>
+  </g>
+</svg>

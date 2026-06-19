@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#0C1428"/><stop offset="100%" stop-color="#060A18"/></radialGradient>
+    <linearGradient id="jar" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1E2A45"/><stop offset="100%" stop-color="#101828"/></linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#C4A882" stop-opacity="0.5"/><stop offset="100%" stop-color="#C4A882" stop-opacity="0"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="15" stdDeviation="22" flood-color="#000010" flood-opacity="0.55"/></filter>
+    <filter id="glowFilter"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g fill="#E8DFD0" opacity="0.7">
+    <circle cx="80" cy="120" r="1.5"/><circle cx="160" cy="80" r="1"/><circle cx="500" cy="100" r="1.5"/>
+    <circle cx="530" cy="180" r="1"/><circle cx="60" cy="350" r="1"/><circle cx="540" cy="450" r="1.5"/>
+    <circle cx="450" cy="520" r="1"/><circle cx="100" cy="500" r="1.5"/>
+  </g>
+  <ellipse cx="300" cy="320" rx="180" ry="180" fill="url(#glow)" filter="url(#glowFilter)"/>
+  <g transform="translate(128, 172)" filter="url(#shadow)">
+    <ellipse cx="172" cy="308" rx="158" ry="20" fill="#000010" opacity="0.5"/>
+    <rect x="18" y="100" width="308" height="208" rx="14" fill="url(#jar)"/>
+    <rect x="18" y="100" width="4" height="208" rx="2" fill="#C4A882" opacity="0.4"/>
+    <rect x="322" y="100" width="4" height="208" rx="2" fill="#C4A882" opacity="0.3"/>
+    <ellipse cx="172" cy="100" rx="154" ry="25" fill="#2A3850"/>
+    <ellipse cx="172" cy="90" rx="150" ry="22" fill="#E8DFD0"/>
+    <path d="M100 88 Q172 72 244 88 Q200 104 172 98 Q144 104 100 88Z" fill="#FAFAF7" opacity="0.55"/>
+    <ellipse cx="172" cy="76" rx="156" ry="28" fill="#1A2A3E"/>
+    <ellipse cx="172" cy="63" rx="156" ry="28" fill="#1C2C40"/>
+    <ellipse cx="172" cy="50" rx="154" ry="26" fill="#1E2E42"/>
+    <ellipse cx="172" cy="38" rx="152" ry="24" fill="#202F44"/>
+    <ellipse cx="172" cy="28" rx="150" ry="22" fill="#223048"/>
+    <ellipse cx="172" cy="26" rx="110" ry="14" fill="none" stroke="#C4A882" stroke-width="2"/>
+    <text x="172" y="32" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#C4A882" font-style="italic">L</text>
+    <rect x="42" y="118" width="260" height="170" rx="4" fill="#FFFFFF" opacity="0.05"/>
+    <rect x="60" y="135" width="224" height="3" rx="1.5" fill="#C4A882" opacity="0.65"/>
+    <rect x="75" y="146" width="194" height="2" rx="1" fill="#E8DFD0" opacity="0.45"/>
+    <rect x="60" y="165" width="224" height="12" rx="3" fill="#C4A882" opacity="0.3"/>
+    <rect x="60" y="184" width="224" height="2" rx="1" fill="#E8DFD0" opacity="0.28"/>
+    <rect x="60" y="193" width="178" height="2" rx="1" fill="#E8DFD0" opacity="0.22"/>
+    <rect x="60" y="222" width="85" height="2" rx="1" fill="#C4A882" opacity="0.4"/>
+  </g>
+</svg>
